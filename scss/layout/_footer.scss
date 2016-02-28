@@ -1,0 +1,38 @@
+/* Footer Styles */
+
+.footer-section {
+	background-color: $kelly-green;
+	color: $white;
+	color: $kelly-cream;
+	text-align: center;
+}
+
+.footer-copy {
+	padding: 10px 0 20px 0;
+}
+
+.footer-wraps {
+	padding: 45px;
+}
+
+.footer-wrap {
+	background-color: $kelly-green;
+	width: 100%;
+}
+
+.footer-wraps .fa {
+	color: $kelly-cream;
+}
+
+.footer-wraps a .fa:hover {
+	color: $white;
+}
+
+.footer-wraps a {
+	color: $kelly-cream;
+}
+
+.footer-wraps a:hover {
+	color: $white;
+	text-decoration: none;
+}

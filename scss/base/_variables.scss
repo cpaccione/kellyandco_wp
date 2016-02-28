@@ -1,0 +1,27 @@
+
+// Descriptive color variables
+
+$white : #ffffff;
+$black : #000000;
+
+// Functional color variables
+
+$kelly-green : #003822;
+$kelly-cream : #fce6bf;
+
+// Font stacks
+
+$stack-sans-serif : Helvetica, Arial, sans-serif;
+$stack-lato : 'Lato', $stack-sans-serif;
+
+// Asset Paths
+
+$path-img : '../images';
+
+
+// Media query breakpoints
+
+
+$brk-wide : '(max-width: 1024px)';
+$brk-narrow : '(max-width: 768px)';
+$brk-small : '(max-width: 500px)';

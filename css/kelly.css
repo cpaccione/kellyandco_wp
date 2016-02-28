@@ -1,0 +1,165 @@
+html {
+  font-size: 100%; }
+
+body {
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #003822;
+  background-color: #fce6bf;
+  font-family: "Lato", Helvetica, Arial, sans-serif; }
+
+hr {
+  border-color: #fce6bf; }
+
+a:link {
+  color: #003822; }
+a:visited {
+  color: #ffffff; }
+a:hover {
+  color: #ffffff; }
+
+@media (max-width: 500px) {
+  .clear-boot-padding {
+    padding: 0; } }
+.nyc-header {
+  background-image: url("../images/nyc_header_alt.png");
+  background-position: 100% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px; }
+  @media (max-width: 500px) {
+    .nyc-header {
+      height: 100%;
+      background-position: 50%; } }
+
+.clients-hero {
+  background-image: url("../images/nyc_window.png");
+  background-position: 50% 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px; }
+
+.contact-hero {
+  background-image: url("../images/prometheus.png");
+  background-position: 50% 3%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px; }
+
+.search-process-hero {
+  background-image: url("../images/brooklyn.jpeg");
+  background-position: 100% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px; }
+
+.home-page-copy {
+  font-size: 1.125em;
+  line-height: 1.8;
+  max-width: 800px;
+  min-height: 350px;
+  text-align: center;
+  padding-bottom: 45px; }
+  .home-page-copy h2 {
+    padding: 25px 0 25px 0;
+    color: #003822; }
+
+.green-box {
+  background-color: rgba(0, 56, 34, 0.7);
+  color: #fce6bf;
+  font-size: 1.5em;
+  width: 40%;
+  padding: 20px;
+  position: relative;
+  top: 50px;
+  display: none;
+  text-align: center; }
+  @media (max-width: 500px) {
+    .green-box {
+      width: 100%;
+      top: 0; } }
+
+/* Footer Styles */
+.footer-section {
+  background-color: #003822;
+  color: #ffffff;
+  color: #fce6bf;
+  text-align: center; }
+
+.footer-copy {
+  padding: 10px 0 20px 0; }
+
+.footer-wraps {
+  padding: 45px; }
+
+.footer-wrap {
+  background-color: #003822;
+  width: 100%; }
+
+.footer-wraps .fa {
+  color: #fce6bf; }
+
+.footer-wraps a .fa:hover {
+  color: #ffffff; }
+
+.footer-wraps a {
+  color: #fce6bf; }
+
+.footer-wraps a:hover {
+  color: #ffffff;
+  text-decoration: none; }
+
+.one {
+  width: 100%;
+  background-color: #ffffff;
+  background-color: #fce6bf; }
+
+.main-nav-container {
+  background-color: #ffffff;
+  background-color: #fce6bf; }
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  background-color: #fce6bf;
+  border-color: #fce6bf; }
+
+.navbar-brand img {
+  width: 250px;
+  height: 132px; }
+
+.navbar-header {
+  height: 189px;
+  background-color: #ffffff;
+  background-color: #fce6bf; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #003822;
+  font-weight: bold; }
+
+/* Home Page Styles */
+.home-section {
+  background-color: #ffffff; }
+
+.home-page-wrap {
+  background-color: #ffffff;
+  background-color: #fce6bf;
+  width: 100%; }
+
+.visible {
+  display: block; }
+
+.green-copy-box {
+  background-color: #003822;
+  color: #fce6bf;
+  font-size: 1em;
+  line-height: 28px;
+  text-align: center;
+  padding: 20px; }
+
+.green-copy-wrap {
+  max-width: 80%;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=kelly.css.map */

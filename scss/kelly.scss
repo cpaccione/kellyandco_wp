@@ -1,0 +1,72 @@
+// ===================================================================
+// Global Imports
+// ===================================================================
+
+
+@import 'base/index';
+@import 'layout/index';
+
+
+.one {
+	width: 100%;
+	background-color: #ffffff;
+	background-color: rgb(252,230,191);
+}
+
+.main-nav-container {
+	background-color: #ffffff;
+	background-color: rgb(252,230,191);
+}
+
+.navbar-default {
+	background-color: #ffffff;
+	border-color: #ffffff;
+	background-color: rgb(252,230,191);
+	border-color: rgb(252,230,191);
+}
+
+.navbar-brand img  {
+	width:250px;
+	height: 132px;
+}
+
+.navbar-header {
+	height: 189px;
+	background-color: #ffffff;
+	background-color: rgb(252,230,191);
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #003822;
+	font-weight: bold;
+}
+
+/* Home Page Styles */
+
+.home-section {
+	background-color: #ffffff;
+}
+
+.home-page-wrap {
+	background-color: #ffffff;
+	background-color: rgb(252,230,191);
+	width: 100%;
+}
+
+.visible {
+	display: block;
+}
+
+.green-copy-box {
+	background-color: #003822;
+	color: rgb(252,230,191);
+	font-size: 1em;
+	line-height: 28px;
+	text-align: center;
+	padding: 20px;
+}
+
+.green-copy-wrap {
+	max-width: 80%;
+	margin: 0 auto;
+}

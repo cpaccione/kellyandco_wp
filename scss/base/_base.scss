@@ -1,0 +1,33 @@
+html {
+	font-size: 100%;
+}
+
+body {
+	@include text(1em, 1.5, 300, $color : $kelly-green);
+	background-color: #fce6bf;
+	font-family: $stack-lato;
+}
+
+hr {
+	border-color: $kelly-cream;
+}
+
+a {
+	&:link {
+		color: $kelly-green;
+	}
+	&:visited {
+		color: $white;
+	}
+	&:hover {
+		color: $white;
+	}
+}
+
+@media #{$brk-small} {
+
+	.clear-boot-padding {
+		padding: 0;
+	}
+	
+}

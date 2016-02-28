@@ -1,0 +1,36 @@
+.nyc-header {
+	background-image: url('#{$path-img}/nyc_header_alt.png');
+    background-position: 100% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+
+    @media #{$brk-small} {
+        height: 100%;
+        background-position: 50%;
+    }
+}
+
+.clients-hero {
+	background-image: url('#{$path-img}/nyc_window.png');
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+}
+
+.contact-hero {
+	background-image: url('#{$path-img}/prometheus.png');
+    background-position: 50% 3%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+}
+
+.search-process-hero {
+	background-image: url('#{$path-img}/brooklyn.jpeg');
+    background-position: 100% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+}
