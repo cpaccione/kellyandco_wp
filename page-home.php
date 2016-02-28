@@ -15,7 +15,7 @@ Template Name: Home Page
     <div class="container home-page">
       <div class="row">
 
-            <div class="col-md-6 clear-boot-padding">
+            <div class="col-xs-12 col-md-8 clear-boot-padding">
               <div class="green-box">
                 <p>
                   Identification<br>
@@ -34,7 +34,7 @@ Template Name: Home Page
 <section class="home-page-wrap">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-md-8">
+        <div class="col-md-12">
 
           <div class="home-page-copy center-block">
             

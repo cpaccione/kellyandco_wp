@@ -32,12 +32,9 @@ Template Name: Contact
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <a href="mailto:info@kellyandco.com">info@Kellyandco.com</a>
+          <a href="mailto:info@kellyandco.com"><i class="fa fa-envelope-o fa-large"></i> info@Kellyandco.com</a>
         </div>
       </div>
     </div>
   </div>
 </section>
-
-
-<?php get_footer(); ?>

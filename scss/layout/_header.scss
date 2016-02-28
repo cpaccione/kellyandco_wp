@@ -1,3 +1,5 @@
+// Header background images
+
 .nyc-header {
 	background-image: url('#{$path-img}/nyc_header_alt.png');
     background-position: 100% 75%;
@@ -33,4 +35,80 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
+}
+
+// Navigation styles
+
+.navbar-default {
+    background-color: $white;
+    border-color: $white;
+    background-color: rgb(252,230,191);
+    border-color: rgb(252,230,191);
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: $active-link;
+    background-color: $kelly-cream;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: $active-link;
+    background-color: $kelly-cream;
+}
+
+
+.navbar-brand img  {
+    width:250px;
+    height: 132px;
+}
+
+.navbar-header {
+    height: 189px;
+    background-color: #ffffff;
+    background-color: rgb(252,230,191);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #003822;
+    font-weight: bold;
+}
+
+// Mobile menu animation
+
+.navbar-toggle .icon-bar {
+    -webkit-transition: opacity, top, -webkit-transform;
+    transition: opacity, top, -webkit-transform;
+    transition: opacity, top, transform;
+    transition: opacity, top, transform, -webkit-transform;
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+    -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0, 0.7);
+    transition-timing-function: cubic-bezier(0.7, 0, 0, 0.7);
+    -webkit-transition-delay: 0, 200ms, 0;
+    transition-delay: 0, 200ms, 0;
+    position: relative;
+    top: 0;
+}
+
+.navbar-toggle:not(.collapsed) .icon-bar {
+    -webkit-transition-delay: 0, 0, 200ms;
+    transition-delay: 0, 0, 200ms;
+}
+
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(2) {
+    top: 6px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(3) {
+    opacity: 0;
+}
+
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(4) {
+    top: -6px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }

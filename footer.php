@@ -3,7 +3,7 @@
 
     <div class="row">
 
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <div class="footer-wraps">
           <h4>Kelly &amp; Company Offices</h4>
           <p>1350 Avenue of the Americas, FL 2 New YorK, NY 10019</p>
@@ -11,14 +11,14 @@
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <div class="footer-wraps">
           <h4>Contact Information</h4>
-          <p><a href="mailto:info@kellyandco.com"><i class="fa fa-envelope-o fa-large"></i> info@kellyandco.com</a></p>
+          <a href="mailto:info@kellyandco.com"><i class="fa fa-envelope-o fa-large"></i> info@kellyandco.com</a>
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <div class="footer-wraps">
           <h4>Social</h4>
           <p><a href="https://www.linkedin.com/company/kelly-&amp;-company?trk=company_name" target=_blank><i class="fa fa-linkedin-square fa-3x"></i></a></p>

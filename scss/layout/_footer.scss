@@ -12,7 +12,7 @@
 }
 
 .footer-wraps {
-	padding: 45px;
+	padding: 45px 0 0 0;
 }
 
 .footer-wrap {
@@ -20,19 +20,16 @@
 	width: 100%;
 }
 
-.footer-wraps .fa {
-	color: $kelly-cream;
+.footer-wraps {
+
+	a {
+		color: $kelly-cream;
+	}
+
+	a:hover {
+		color: $white;
+		text-decoration: none;
+	}
+	
 }
 
-.footer-wraps a .fa:hover {
-	color: $white;
-}
-
-.footer-wraps a {
-	color: $kelly-cream;
-}
-
-.footer-wraps a:hover {
-	color: $white;
-	text-decoration: none;
-}
