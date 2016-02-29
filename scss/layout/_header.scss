@@ -18,7 +18,7 @@
     background-position: 50% 10%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 420px;
+    height: 320px;
 }
 
 .contact-hero {
@@ -26,7 +26,7 @@
     background-position: 50% 3%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 420px;
+    height: 320px;
 }
 
 .search-process-hero {
@@ -34,7 +34,7 @@
     background-position: 100% 75%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 420px;
+    height: 320px;
 }
 
 // Navigation styles
@@ -60,19 +60,18 @@
 
 
 .navbar-brand img  {
-    width:250px;
-    height: 132px;
+    height: 120px;
 }
 
 .navbar-header {
-    height: 189px;
-    background-color: #ffffff;
+    height: 160px;
+    background-color: $white;
     background-color: rgb(252,230,191);
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #003822;
-    font-weight: bold;
+    color: $kelly-green;
+    text-transform: uppercase;
 }
 
 // Mobile menu animation

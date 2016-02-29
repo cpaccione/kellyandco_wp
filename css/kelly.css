@@ -22,6 +22,14 @@ a:hover {
 @media (max-width: 500px) {
   .clear-boot-padding {
     padding: 0; } }
+h2 {
+  font-size: 2.5em;
+  font-weight: 300; }
+
+h5 {
+  font-size: 1.125em;
+  line-height: 1.5; }
+
 .nyc-header {
   background-image: url("../images/nyc_header_alt.png");
   background-position: 100% 75%;
@@ -38,21 +46,21 @@ a:hover {
   background-position: 50% 10%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px; }
+  height: 320px; }
 
 .contact-hero {
   background-image: url("../images/prometheus.png");
   background-position: 50% 3%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px; }
+  height: 320px; }
 
 .search-process-hero {
   background-image: url("../images/brooklyn.jpeg");
   background-position: 100% 75%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px; }
+  height: 320px; }
 
 .navbar-default {
   background-color: #ffffff;
@@ -72,17 +80,16 @@ a:hover {
   background-color: #fce6bf; }
 
 .navbar-brand img {
-  width: 250px;
-  height: 132px; }
+  height: 120px; }
 
 .navbar-header {
-  height: 189px;
+  height: 160px;
   background-color: #ffffff;
   background-color: #fce6bf; }
 
 .navbar-default .navbar-nav > li > a {
   color: #003822;
-  font-weight: bold; }
+  text-transform: uppercase; }
 
 .navbar-toggle .icon-bar {
   -webkit-transition: opacity, top, -webkit-transform;
@@ -140,6 +147,17 @@ a:hover {
     .green-box {
       width: 100%;
       top: 0; } }
+
+.page-title {
+  padding: 25px 0 25px 0; }
+  .page-title h2 {
+    text-transform: uppercase; }
+
+.logo-wrapper {
+  padding: 40px 0 40px 0; }
+
+.client-logos {
+  min-height: 350px; }
 
 /* Footer Styles */
 .footer-section {

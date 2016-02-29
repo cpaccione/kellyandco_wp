@@ -7,7 +7,21 @@ jQuery(document).ready(function($) {
 
     $('img').addClass('img-responsive');
 
+  // Animation for green text box on home page
+
     $('.green-box').addClass('visible animated slideInLeft');
+
+  // Activate tab panels
+
+    $('#tabs').tabs({
+        select: function(event, ui) {
+            $(ui.panel).animate({opacity:0.1});
+        },
+        show: function(event, ui) {
+            $(ui.panel).animate({opacity:1.0},1000);
+        }
+
+    });
 
     // Smooth scroll function, use and id in the href and then place an id on the target you wish to scroll to.
     //Example: a href="#target">my link</a>  --> <h2 id="#target">Go Here</h2>
