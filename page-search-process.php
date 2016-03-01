@@ -34,13 +34,21 @@ Template Name: Search Process
 
   <div class="row">
     <div class="search-process-wrap">
-      <div class="col-md-12">
+      <div class="col-sm-4">
 
-          <h3>Week One – Position Description, Research and Recruitment</h3>
-          <p><i class="fa fa-check-square-o"></i>In collaboration with our client, Kelly & Company prepares a position description to serve as the roadmap for the search.</p>
-          <p><i class="fa fa-check-square-o"></i>A target list of candidate sources is prepared and research and recruitment begins.</p>
+          <h3>Week</h3>
+          </div>
+          <div class="col-sm-8">
 
-          <h3>Week Two to Four – Recruitment and Assessment</h3>
+            <h3>Position Description, Research and Recruitment</h3>
+
+            <p><i class="fa fa-check-square-o"></i>In collaboration with our client, Kelly & Company prepares a position description to serve as the roadmap for the search.</p>
+
+            <p><i class="fa fa-check-square-o"></i>A target list of candidate sources is prepared and research and recruitment begins.</p>
+
+          </div>
+
+       <!--    <h3>Week Two to Four – Recruitment and Assessment</h3>
           <p><i class="fa fa-check-square-o"></i>Potential candidates are screened by telephone and appropriate candidates are interviewed in person to assess their suitability.</p>
 
           <p><i class="fa fa-check-square-o"></i>Once we identify an appropriate candidate, we prepare a profile that provides in-depth information as to the candidate’s circumstances and experience.</p>
@@ -69,7 +77,7 @@ Template Name: Search Process
 
           <p><i class="fa fa-check-square-o"></i>We assist in structuring the offer and closing the hire.</p>
 
-          <p><i class="fa fa-check-square-o"></i>We closely monitor the selected candidate’s resignation and transition to our client.</p>
+          <p><i class="fa fa-check-square-o"></i>We closely monitor the selected candidate’s resignation and transition to our client.</p> -->
 
       </div>
     </div>
