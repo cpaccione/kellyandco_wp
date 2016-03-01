@@ -47,3 +47,45 @@
 .client-logos {
 	min-height: 350px;
 }
+
+/* Bootstrap Tabs */
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+	background-color: $kelly-green;
+	color: $white;
+	border: 2px solid $white;
+}
+
+.nav-pills  {
+
+	> li a:hover {
+		background-color: $white;
+		border: 2px solid $kelly-green;
+		color: $kelly-green;
+	}
+
+	> li > a {
+		border-radius: 0;
+		border: 2px solid $white;
+		padding: 20px 0 20px 0;
+		margin-right: 10px;
+	}
+
+}
+
+// Search Process Page
+
+.search-process-wrap {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px 0 50px 0;
+
+	h3 {
+		text-align: center;
+	}
+}
+
+
+
