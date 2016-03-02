@@ -26,9 +26,31 @@ h2 {
   font-size: 2.5em;
   font-weight: 300; }
 
+h3 {
+  font-size: 1.5em; }
+  @media (max-width: 500px) {
+    h3 {
+      font-size: 1em; } }
+
 h5 {
   font-size: 1.125em;
   line-height: 1.5; }
+
+.navbar-default .navbar-toggle {
+  border-color: #003822;
+  border-radius: 0px; }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #003822; }
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  font-size: 3.50em;
+  color: #fce6bf;
+  line-height: 100px;
+  text-align: center;
+  background: #003822; }
 
 .nyc-header {
   background-image: url("../images/nyc_header_alt.png");
@@ -177,12 +199,20 @@ h5 {
   padding: 20px 0 20px 0;
   margin-right: 10px; }
 
+.search-process {
+  padding-bottom: 50px; }
+
 .search-process-wrap {
-  max-width: 800px;
+  max-width: 825px;
   margin: 0 auto;
   padding: 50px 0 50px 0; }
   .search-process-wrap h3 {
-    text-align: center; }
+    text-transform: uppercase; }
+  .search-process-wrap p {
+    font-style: italic; }
+  @media (max-width: 768px) {
+    .search-process-wrap {
+      text-align: center; } }
 
 /* Footer Styles */
 .footer-section {

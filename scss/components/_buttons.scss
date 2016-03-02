@@ -1,0 +1,26 @@
+// Mobile Menu
+
+.navbar-default .navbar-toggle {
+	border-color: $kelly-green;
+	border-radius: 0px;
+
+	.icon-bar {
+		background-color: $kelly-green;
+	}
+}
+
+
+
+
+// Search Process circles
+
+.circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	font-size: 3.50em;
+	color: $kelly-cream;
+	line-height: 100px;
+	text-align: center;
+	background: $kelly-green;
+}

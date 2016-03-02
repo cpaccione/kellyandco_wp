@@ -77,14 +77,27 @@
 
 // Search Process Page
 
+.search-process {
+	padding-bottom: 50px;
+}
+
 .search-process-wrap {
-	max-width: 800px;
+	max-width: 825px;
 	margin: 0 auto;
 	padding: 50px 0 50px 0;
 
 	h3 {
+		text-transform: uppercase
+	}
+
+	p {
+		font-style: italic;
+	}
+
+	@media #{$brk-narrow} {
 		text-align: center;
 	}
+
 }
 
 

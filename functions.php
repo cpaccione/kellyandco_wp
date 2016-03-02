@@ -49,7 +49,7 @@ add_action( 'wp_enqueue_scripts', 'prefix_enqueue_awesome' );
  */
 
 function prefix_enqueue_awesome() {
-	wp_enqueue_style( 'prefix-font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', array(), '4.4.0' );
+	wp_enqueue_style( 'prefix-font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css', array(), '4.5.0' );
 }
 
 // Add extra classes for the first and last items in all WordPress menus
