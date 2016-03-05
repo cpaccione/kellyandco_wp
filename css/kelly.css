@@ -142,6 +142,27 @@ h5 {
 .navbar-default .navbar-toggle:hover {
   background-color: transparent; }
 
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: transparent; }
+
+.dropdown-menu {
+  background-color: #003822; }
+  .dropdown-menu > li > a {
+    color: #fce6bf;
+    padding: 7px 20px;
+    text-transform: uppercase; }
+  .dropdown-menu > li > a:hover {
+    background-color: #fce6bf;
+    color: #003822; }
+  .dropdown-menu > .active > a {
+    background-color: #fce6bf;
+    color: #003822; }
+    .dropdown-menu > .active > a:hover {
+      background-color: #fce6bf;
+      color: #003822; }
+
 .navbar-toggle .icon-bar {
   -webkit-transition: opacity, top, -webkit-transform;
   transition: opacity, top, -webkit-transform;
@@ -199,6 +220,30 @@ h5 {
       width: 100%;
       top: 0; } }
 
+/* Home Page Styles */
+.visible {
+  display: block; }
+
+.home-section {
+  background-color: #ffffff; }
+
+.home-page-wrap {
+  background-color: #ffffff;
+  background-color: #fce6bf;
+  width: 100%; }
+
+.green-copy-box {
+  background-color: #003822;
+  color: #fce6bf;
+  font-size: 1em;
+  line-height: 28px;
+  text-align: center;
+  padding: 20px; }
+
+.green-copy-wrap {
+  max-width: 80%;
+  margin: 0 auto; }
+
 .page-title {
   padding: 25px 0 25px 0; }
   .page-title h2 {
@@ -211,6 +256,16 @@ h5 {
   min-height: 350px; }
 
 /* Bootstrap Tabs */
+.tab-content {
+  padding: 30px 0 30px 0; }
+  @media (max-width: 768px) {
+    .tab-content {
+      padding: 10px 0 30px 0; } }
+
+.pub-wrap {
+  max-width: 800px;
+  margin: 0 auto; }
+
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover {
@@ -224,7 +279,7 @@ h5 {
   color: #003822; }
 .nav-pills > li > a {
   border-radius: 0;
-  border: 2px solid #ffffff;
+  border: 2px solid #003822;
   padding: 20px 0 20px 0;
   margin-right: 10px; }
 
@@ -265,29 +320,5 @@ h5 {
 .footer-wraps a:hover {
   color: #ffffff;
   text-decoration: none; }
-
-/* Home Page Styles */
-.home-section {
-  background-color: #ffffff; }
-
-.home-page-wrap {
-  background-color: #ffffff;
-  background-color: #fce6bf;
-  width: 100%; }
-
-.visible {
-  display: block; }
-
-.green-copy-box {
-  background-color: #003822;
-  color: #fce6bf;
-  font-size: 1em;
-  line-height: 28px;
-  text-align: center;
-  padding: 20px; }
-
-.green-copy-wrap {
-  max-width: 80%;
-  margin: 0 auto; }
 
 /*# sourceMappingURL=kelly.css.map */

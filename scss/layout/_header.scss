@@ -110,6 +110,39 @@
     background-color: transparent;
 }
 
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    background-color: transparent;
+}
+
+// Drop down menu
+
+.dropdown-menu {
+    background-color: $kelly-green;
+
+    > li > a {
+        color: $kelly-cream;
+        padding: 7px 20px;
+        text-transform: uppercase;
+    }
+
+    > li > a:hover {
+        background-color: $kelly-cream;
+        color: $kelly-green;
+    }
+
+    > .active > a {
+        background-color: $kelly-cream;
+        color: $kelly-green;
+
+            &:hover {
+                background-color: $kelly-cream;
+                color: $kelly-green;
+            }
+    }
+}
+
 // Mobile menu animation
 
 .navbar-toggle .icon-bar {

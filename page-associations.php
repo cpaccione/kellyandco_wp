@@ -22,14 +22,24 @@ Template Name: Associations
         </div>
       </div>
 
-      <div class="row">
-      <div class="col-md-12">
-  <!-- Nav tabs -->
-  <ul class="nav nav-pills nav-justified" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">HEALTH &amp; BENEFITS</a></li>
-    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">HUMAN RESOURCES</a></li>
-    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">RETIREMENT SERVICES</a></li>
-  </ul>
+	<div class="row">
+		
+		<div class="col-md-12">
+	      
+			<!-- Nav tabs -->
+			<ul class="nav nav-pills nav-justified" role="tablist">
+				
+			    <li role="presentation" class="active">
+			    	<a href="#home" aria-controls="home" role="tab" data-toggle="tab">HEALTH &amp; BENEFITS</a>
+			    </li>
+			    <li role="presentation">
+			    	<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">HUMAN RESOURCES</a>
+			    </li>
+			    <li role="presentation">
+			    	<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">RETIREMENT SERVICES</a>
+			    </li>
+			    
+			</ul>
 
   <!-- Tab panes -->
   <div class="tab-content">
@@ -104,11 +114,11 @@ Template Name: Associations
 
     </div>
     
-  </div>
-  </div>
-  </div>
+			</div> <!-- close tab content -->
+		</div> <!-- close col-md-12 -->
+	</div> <!-- close row -->
 
-</div>
+</div> <!-- close container -->
 
 
 <?php get_footer(); ?>
