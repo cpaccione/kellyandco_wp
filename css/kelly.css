@@ -58,10 +58,12 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 420px; }
+  @media (max-width: 768px) {
+    .nyc-header {
+      background-position: 50%; } }
   @media (max-width: 500px) {
     .nyc-header {
-      height: 100%;
-      background-position: 50%; } }
+      height: 100%; } }
 
 .clients-hero {
   background-image: url("../images/nyc_window.png");
@@ -84,6 +86,26 @@ h5 {
   background-size: cover;
   height: 320px; }
 
+.one {
+  width: 100%;
+  background-color: #ffffff;
+  background-color: #fce6bf; }
+
+.main-nav-container {
+  background-color: #ffffff;
+  background-color: #fce6bf;
+  padding: 0px; }
+  @media (max-width: 768px) {
+    .main-nav-container {
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+#menu-main-navigation {
+  margin-top: 85px; }
+  @media (max-width: 992px) {
+    #menu-main-navigation {
+      margin-top: -10px; } }
+
 .navbar-default {
   background-color: #ffffff;
   border-color: #ffffff;
@@ -101,8 +123,11 @@ h5 {
   color: #54887F;
   background-color: #fce6bf; }
 
+.navbar {
+  margin-bottom: 0px; }
+
 .navbar-brand img {
-  height: 120px; }
+  height: 115px; }
 
 .navbar-header {
   height: 160px;
@@ -112,6 +137,10 @@ h5 {
 .navbar-default .navbar-nav > li > a {
   color: #003822;
   text-transform: uppercase; }
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent; }
 
 .navbar-toggle .icon-bar {
   -webkit-transition: opacity, top, -webkit-transform;
@@ -236,15 +265,6 @@ h5 {
 .footer-wraps a:hover {
   color: #ffffff;
   text-decoration: none; }
-
-.one {
-  width: 100%;
-  background-color: #ffffff;
-  background-color: #fce6bf; }
-
-.main-nav-container {
-  background-color: #ffffff;
-  background-color: #fce6bf; }
 
 /* Home Page Styles */
 .home-section {

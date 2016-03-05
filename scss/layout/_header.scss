@@ -6,10 +6,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
+    
+    @media #{$brk-narrow} {
+	    background-position: 50%;
+    }
 
     @media #{$brk-small} {
         height: 100%;
-        background-position: 50%;
     }
 }
 
@@ -39,6 +42,31 @@
 
 // Navigation styles
 
+.one {
+	width: 100%;
+	background-color: #ffffff;
+	background-color: $kelly-cream;
+}
+
+.main-nav-container {
+	background-color: #ffffff;
+	background-color: $kelly-cream;
+	padding: 0px;
+	
+	@media #{$brk-narrow} {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+#menu-main-navigation {
+	margin-top: 85px;
+	
+	@media #{$brk-wide-two} {
+		margin-top: -10px;
+	}
+}
+
 .navbar-default {
     background-color: $white;
     border-color: $white;
@@ -58,9 +86,12 @@
     background-color: $kelly-cream;
 }
 
+.navbar {
+	margin-bottom: 0px;
+}
 
 .navbar-brand img  {
-    height: 120px;
+    height: 115px;
 }
 
 .navbar-header {
@@ -72,6 +103,11 @@
 .navbar-default .navbar-nav > li > a {
     color: $kelly-green;
     text-transform: uppercase;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
 }
 
 // Mobile menu animation
