@@ -75,7 +75,6 @@ h5 {
 
 .contact-hero {
   background-image: url("../images/prometheus.png");
-  background-image: url("../images/flat-iron.jpg");
   background-position: 50% 3%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,6 +86,9 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 320px; }
+  @media (max-width: 500px) {
+    .search-process-hero {
+      background-position: 50%; } }
 
 .one {
   width: 100%;
@@ -300,7 +302,8 @@ h5 {
     font-style: italic; }
   @media (max-width: 768px) {
     .search-process-wrap {
-      text-align: center; } }
+      text-align: center;
+      padding: 0px 0 0px 0; } }
 
 /* Footer Styles */
 .footer-section {
