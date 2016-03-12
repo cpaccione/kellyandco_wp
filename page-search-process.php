@@ -28,7 +28,7 @@ Template Name: Search Process
       <div class="col-md-12">
         <div class="green-copy-box">
           <div class="green-copy-wrap">
-          <p>Our experiences indicates that the prospect of a successful hire is significantly enhanced when we collaborate with our clients in a well thought out and carefully defined process of search execution.</p>
+          <p><?php the_field('green_box'); ?></p>
           </div>
         </div>
       </div>
