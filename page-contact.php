@@ -11,9 +11,9 @@ Template Name: Contact
 
 <?php get_header(); ?>
 
-<section class="contact-hero"></section>
+<section class="contact-hero" style="background-image: url(<?php the_field('header_background_image'); ?>);"></section>
 
-<section class="client-logos">
+<section class="contact-body site-content">
   <div class="container text-center">
 
       <div class="row">

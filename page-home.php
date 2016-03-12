@@ -8,9 +8,11 @@ Template Name: Home Page
 
 ?>
 
+
 <?php get_header(); ?>
 
-<section class="nyc-header">
+
+<section class="nyc-header" style="background-image: url(<?php the_field('header_background_image'); ?>);">
     <div class="container home-page">
       <div class="row">
         <div class="col-xs-12 col-md-8 clear-boot-padding">

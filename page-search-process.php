@@ -11,7 +11,7 @@ Template Name: Search Process
 
 <?php get_header(); ?>
 
-<section class="search-process-hero"></section>
+<section class="search-process-hero" style="background-image: url(<?php the_field('header_background_image'); ?>);"></section>
 
 <section class="search-process">
   <div class="container">

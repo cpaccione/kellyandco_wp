@@ -11,7 +11,7 @@ Template Name: Clients Template
 
 <?php get_header(); ?>
 
-<section class="clients-hero"></section>
+<section class="clients-hero" style="background-image: url(<?php the_field('header_background_image'); ?>);"></section>
 
 <section class="client-logos">
   <div class="container">

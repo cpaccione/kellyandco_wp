@@ -34,6 +34,7 @@
 
 
 // The visible class is used to display the green box on the home page with jQuery.
+
 .visible {
 	display: block;
 }
@@ -140,6 +141,18 @@
 	}
 
 }
+
+// Contact Page
+
+.contact-body {
+	min-height: 400px;
+}
+
+.footer-wrap-contact {
+	background-color: $kelly-green;
+}
+
+
 
 
 

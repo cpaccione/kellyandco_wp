@@ -1,7 +1,6 @@
 // Header background images
 
 .nyc-header {
-	background-image: url('#{$path-img}/nyc_header_alt.png');
     background-position: 100% 75%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,8 +16,6 @@
 }
 
 .clients-hero {
-    background-image: url('#{$path-img}/nyc_window.png');
-    background-image: url('#{$path-img}/downtown-nyc-optimized.jpg');
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,8 +23,6 @@
 }
 
 .contact-hero {
-	background-image: url('#{$path-img}/prometheus.png');
-	// background-image: url('#{$path-img}/flat-iron.jpg');
     background-position: 50% 3%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +30,6 @@
 }
 
 .search-process-hero {
-	background-image: url('#{$path-img}/brooklyn_optimized.jpg');
     background-position: 100% 75%;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,4 +1,5 @@
-<section class="footer-wrap">
+
+<section class="footer-wrap-contact">
   <div class="container footer-section">
 
     <div class="row">
