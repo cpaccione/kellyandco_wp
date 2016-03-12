@@ -18,7 +18,7 @@
 
 .clients-hero {
     background-image: url('#{$path-img}/nyc_window.png');
-    background-image: url('#{$path-img}/downtown-nyc.jpeg');
+    background-image: url('#{$path-img}/downtown-nyc-optimized.jpg');
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +35,7 @@
 }
 
 .search-process-hero {
-	background-image: url('#{$path-img}/brooklyn.jpeg');
+	background-image: url('#{$path-img}/brooklyn_optimized.jpg');
     background-position: 100% 75%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,12 +100,20 @@
 
 .navbar-brand img  {
     height: 115px;
+
+    @media #{$brk-xsmall} {
+        height: 90px;
+    }
 }
 
 .navbar-header {
     height: 160px;
     background-color: $white;
     background-color: rgb(252,230,191);
+
+    @media #{$brk-xsmall} {
+        height: 135px;
+    }
 }
 
 .navbar-default .navbar-nav > li > a {
