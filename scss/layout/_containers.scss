@@ -96,6 +96,16 @@
 	margin: 0 auto;
 }
 
+// This removes the margin from the tabs after the first one which was causing them to not be the same size.
+
+@media #{$brk-narrow} {
+
+	.nav-pills > li + li {
+		margin-left: 0px;
+	}
+
+} 
+
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover {
@@ -144,8 +154,18 @@
 
 // Contact Page
 
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
 .contact-body {
-	min-height: 400px;
+	min-height: 300px;
 }
 
 .footer-wrap-contact {
