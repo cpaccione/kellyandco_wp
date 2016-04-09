@@ -26,7 +26,7 @@
 
   </head>
 
-  <body class="Site">
+  <body>
 
 <section class="one">
   	<div class="container main-nav-container">

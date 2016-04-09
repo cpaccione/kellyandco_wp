@@ -13,7 +13,7 @@ Template Name: Contact
 
 <section class="contact-hero" style="background-image: url(<?php the_field('header_background_image'); ?>);"></section>
 
-<section class="contact-body Site-content">
+<section class="contact-body">
   <div class="container text-center">
 
       <div class="row">
