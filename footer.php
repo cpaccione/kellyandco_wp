@@ -8,7 +8,7 @@
           <h4>Kelly &amp; Company Offices</h4>
           <p>1350 Avenue of the Americas, FL 2<br>
           New York, NY 10019</p>
-          <p>15 New England Executive Office Park<br>Burlington, MA 01803</p>
+          <p>1500 District Avenue<br>Burlington, MA 01803</p>
         </div>
       </div>
 
