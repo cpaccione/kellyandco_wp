@@ -7,10 +7,14 @@ jQuery(document).ready(function($) {
 
     $('img').addClass('img-responsive');
 
+    $('.svg').removeClass('img-responsive');
+
   // Animation for green text box on home page
 
     $('.green-box').addClass('visible animated slideInLeft');
 
+
+  // tabs
 
     $('.nav-pills a').click(function (e) {
       
@@ -19,6 +23,8 @@ jQuery(document).ready(function($) {
       $(this).tab('show');
 
     })
+
+  // dropdown on hover
 
     $('.navbar [data-toggle="dropdown"]').bootstrapDropdownHover({
         

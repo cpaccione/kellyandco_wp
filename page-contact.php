@@ -31,7 +31,7 @@ Template Name: Contact
           </div>
 
           <div class="col-sm-6">
-            <h5>15 New England Executive Office Park<br>
+            <h5>1500 District Ave.<br>
             Burlington, MA 01803</h5>
           </div>
       </div>

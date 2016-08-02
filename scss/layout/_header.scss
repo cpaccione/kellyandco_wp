@@ -29,6 +29,13 @@
     height: 420px;
 }
 
+.aboutus-hero {
+    background-position: 100% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
 .search-process-hero {
     background-position: 100% 60%;
     background-repeat: no-repeat;
@@ -60,10 +67,10 @@
 }
 
 #menu-main-navigation {
-	margin-top: 85px;
+	padding: 45px 0 0 60px;
 	
 	@media #{$brk-wide-two} {
-		margin-top: -10px;
+        padding: 0;
 	}
 }
 
@@ -93,7 +100,7 @@
 }
 
 .navbar-brand img  {
-    height: 115px;
+    height: 90px;
 
     @media #{$brk-xsmall} {
         height: 90px;
@@ -101,7 +108,7 @@
 }
 
 .navbar-header {
-    height: 160px;
+    height: 130px;
     background-color: $white;
     background-color: rgb(252,230,191);
 
@@ -112,7 +119,13 @@
 
 .navbar-default .navbar-nav > li > a {
     color: $kelly-green;
-    text-transform: uppercase;
+    font-size: 1.125em;
+    // text-transform: uppercase;
+    margin-right: 45px;
+
+    @media #{$brk-1200} {
+        margin-right: 20px;
+    }
 }
 
 .navbar-default .navbar-toggle:focus,

@@ -30,8 +30,103 @@
 	}
 }
 
-/* Home Page Styles */
+// New Homepage styles
 
+.home-section {
+	background-color: #ffffff;
+	background-color: #fce6bf;
+}
+
+.home-page {
+	background-color: #ffffff;
+	background-color: #fce6bf;
+	text-align: center;
+}
+
+.home-page-copy {
+	max-width: 800px;
+	min-height: 350px;
+	/*font-size: 18px;*/
+	font-size: 1.125em;
+	line-height: 1.875em;
+}
+
+.home-page-copy h2 {
+	padding: 25px 0 25px 0;
+	color: #003822;
+}
+
+.home-hero {
+	background-image: url('../img/home-bg.jpg');
+    background-position: 100% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+ul.adj-list {
+	text-align: center;
+	padding-top: 50px;
+	margin: 0;
+
+	li {
+		display: inline-block;
+		color: #003822;
+		font-size: 1.75em;
+	}
+
+	> li:before {
+		content: '\2022';
+		margin-right: 0.5em;
+		margin-left: 0.5em;
+	}
+
+	li:first-child:before {
+		color: red;
+		content: '';
+	}
+
+}
+
+.stats {
+	/*background-color: #003822;*/
+	/*background-color: #fce6bf;*/
+	background-color: #fce6bf;
+	color: #ffffff;
+	color: #003822;
+	/*color: #003822;*/
+	text-align: center;
+	height: 250px;
+
+	@media #{$brk-767} {
+		height: 100%;
+	}
+}
+
+.stat-wraps {
+
+	padding: 25px 0 0 0;
+
+	@media #{$brk-small} {
+		padding: 25px 0 25px 0;
+	}
+
+	h2 {
+		font-size: 3.75em;
+		font-weight: 300;
+
+		@media #{$brk-small} {
+			margin: 0;
+		}
+	}
+
+	p {
+		font-size: 1.125em;
+	}
+
+}
+
+// Home page styles 
 
 // The visible class is used to display the green box on the home page with jQuery.
 
@@ -128,6 +223,14 @@
 		margin-right: 10px;
 	}
 
+}
+
+// About Us Page
+
+.about-us-wrap {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 15px 50px 15px;
 }
 
 // Search Process Page
