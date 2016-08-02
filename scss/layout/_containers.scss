@@ -170,10 +170,26 @@ ul.adj-list {
 
 .logo-wrapper {
 	padding: 40px 0 40px 0;
+
+	.row {
+		padding-bottom: 50px;
+
+		@media #{$brk-767} {
+			padding-bottom: inherit;
+		}
+	}
 }
 
-.client-logos {
-	min-height: 350px;
+img.client-logo {
+	max-width: 250px;
+
+	@media #{$brk-wide-two} {
+		max-width: 200px;
+	}
+
+	@media #{$brk-767} {
+		max-width: 100%;
+	}
 }
 
 /* Bootstrap Tabs */

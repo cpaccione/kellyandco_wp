@@ -6,6 +6,8 @@ Template Name: Clients Template
 
 */
 
+$counter = 0;
+
 ?>
 
 
@@ -43,13 +45,12 @@ Template Name: Clients Template
             //variables
             $image = get_sub_field('image');
 
-
           ?>
 
           <?php if($counter % 3 === 0) : echo '<div class="row">'; endif; ?>
 
             <div class="col-sm-4">
-              <img class="center-block" src="<?php echo $image[url]; ?>" alt="<?php echo $image['alt'] ?>">
+              <img class="center-block client-logo" src="<?php echo $image[url]; ?>" alt="<?php echo $image['alt'] ?>">
             </div>
 
         <?php $counter++; if($counter % 3 === 0) : echo '</div>'; endif; ?>
