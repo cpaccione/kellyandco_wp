@@ -11,7 +11,8 @@
     }
 
     @media #{$brk-small} {
-        height: 100%;
+        background-color: rgba(0, 56, 34, 0.7);
+        height: 250px;
     }
 }
 
@@ -20,6 +21,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
+
+    @media #{$brk-small} {
+        height: 250px;
+    }
 }
 
 .contact-hero {
@@ -27,6 +32,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
+
+    @media #{$brk-small} {
+        height: 250px;
+    }
 }
 
 .aboutus-hero {
@@ -34,6 +43,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+
+    @media #{$brk-small} {
+        height: 250px;
+    }
 }
 
 .search-process-hero {
@@ -44,6 +57,18 @@
 
     @media #{$brk-small} {
         background-position: 50%;
+        height: 250px;
+    }
+}
+
+.home-hero {
+    background-position: 100% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+    @media #{$brk-small} {
+        height: 250px;
     }
 }
 

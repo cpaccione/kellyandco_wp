@@ -2,6 +2,8 @@
 
 jQuery(document).ready(function($) {
 
+  // Fade in hero copy
+  $('.adj-list').fadeIn(1500).removeClass('hide-hero');
 
 	// Add bootstrap's 'img-responsive' class to all images
 
@@ -12,7 +14,6 @@ jQuery(document).ready(function($) {
   // Animation for green text box on home page
 
   $('.green-box').addClass('visible animated slideInLeft');
-
 
   // tabs
 

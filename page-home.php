@@ -17,7 +17,7 @@ Template Name: Home Page
       <div class="row">
         <div class="nyc-header">
             <div class="col-md-12">
-              <ul class="adj-list fa-ul">
+              <ul class="adj-list fa-ul hide-hero">
                 <li>Identification</li>
                 <li>Recruitment</li>
                 <li>Assessment</li>

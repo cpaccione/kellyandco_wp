@@ -23,11 +23,13 @@ $path-img : '../images';
 
 // Media query breakpoints
 
-
+$brk-1300 : '(max-width: 1300px)';
 $brk-1200 : '(max-width: 1200px)';
 $brk-wide : '(max-width: 1024px)';
 $brk-wide-two : '(max-width: 992px)';
 $brk-narrow : '(max-width: 768px)';
 $brk-767 : '(max-width: 767px)';
 $brk-small : '(max-width: 500px)';
+$brk-430 : '(max-width: 430px)';
+$brk-375 : '(max-width: 375px)';
 $brk-xsmall : '(max-width: 320px)';

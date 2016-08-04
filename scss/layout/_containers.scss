@@ -56,12 +56,8 @@
 	color: #003822;
 }
 
-.home-hero {
-	background-image: url('../img/home-bg.jpg');
-    background-position: 100% 60%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
+.hide-hero {
+	display: none;
 }
 
 ul.adj-list {
@@ -73,12 +69,41 @@ ul.adj-list {
 		display: inline-block;
 		color: #003822;
 		font-size: 1.75em;
+
+		@media #{$brk-1300} {
+			font-size: 1.50em;
+		}
+
+		@media #{$brk-wide} {
+			font-size: 1.75em;
+		}
+
+		@media #{$brk-small} {
+			color: $white;
+			margin-right: 5px;
+		}
+
+		@media #{$brk-430} {
+			font-size: 1.25em;
+		}
+
+		@media #{$brk-375} {
+			margin-right: 10px;
+		}
+
+		@media #{$brk-xsmall} {
+			margin-right: 0px;
+		}
 	}
 
 	> li:before {
 		content: '\2022';
 		margin-right: 0.5em;
 		margin-left: 0.5em;
+
+		@media #{$brk-small} {
+			display: none;
+		}
 	}
 
 	li:first-child:before {
@@ -175,7 +200,7 @@ ul.adj-list {
 		padding-bottom: 50px;
 
 		@media #{$brk-767} {
-			padding-bottom: inherit;
+			padding-bottom: 0px;
 		}
 	}
 }

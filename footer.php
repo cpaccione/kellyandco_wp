@@ -14,7 +14,7 @@
           <p>Offices</p>
           <p>1350 Avenue of the Americas, FL 2</p>
           <p>New York, NY 10019</p>
-          <p>1500 District Ave.</p>
+          <p>1500 District Avenue</p>
           <p>Burlington, MA 01803</p>
         </div>
       </div>
