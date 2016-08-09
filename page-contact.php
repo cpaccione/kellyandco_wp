@@ -31,7 +31,7 @@ Template Name: Contact
           </div>
 
           <div class="col-sm-6">
-            <h5>1500 District Avenue.<br>
+            <h5>1500 District Avenue<br>
             Burlington, MA 01803</h5>
           </div>
       </div>
