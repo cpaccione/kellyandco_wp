@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
-    
+
     @media #{$brk-narrow} {
 	    background-position: 50%;
     }
@@ -39,13 +39,16 @@
 }
 
 .aboutus-hero {
-    background-position: 100% 60%;
+    // background-position: 100% 60%;
+    background-position: 100% 35%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    // height: 400px;
+    height: 420px;
 
     @media #{$brk-small} {
-        height: 250px;
+      background-position: 50%;
+      height: 250px;
     }
 }
 
@@ -84,7 +87,7 @@
 	background-color: #ffffff;
 	background-color: $kelly-cream;
 	padding: 0px;
-	
+
 	@media #{$brk-narrow} {
 		padding-left: 15px;
 		padding-right: 15px;
@@ -93,7 +96,7 @@
 
 #menu-main-navigation {
 	padding: 45px 0 0 60px;
-	
+
 	@media #{$brk-wide-two} {
         padding: 0;
 	}
