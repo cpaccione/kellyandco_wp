@@ -17,7 +17,18 @@
 }
 
 .clients-hero {
-    background-position: 50% 50%;
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+
+    @media #{$brk-small} {
+        height: 250px;
+    }
+}
+
+.network-hero {
+    background-position: 50% 55%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 420px;

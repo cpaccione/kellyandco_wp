@@ -11,6 +11,7 @@ Template Name: Associations
 
 <?php get_header(); ?>
 
+<section class="network-hero" style="background-image: url(<?php the_field('header_background_image'); ?>);"></section>
 
 <div class="container">
 
@@ -23,12 +24,12 @@ Template Name: Associations
       </div>
 
 	<div class="row">
-		
+
 		<div class="col-md-12">
-	      
+
 			<!-- Nav tabs -->
 			<ul class="nav nav-pills nav-justified" role="tablist">
-				
+
 			    <li role="presentation" class="active">
 			    	<a href="#home" aria-controls="home" role="tab" data-toggle="tab">HEALTH &amp; BENEFITS</a>
 			    </li>
@@ -38,7 +39,7 @@ Template Name: Associations
 			    <li role="presentation">
 			    	<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">RETIREMENT SERVICES</a>
 			    </li>
-			    
+
 			</ul>
 
   <!-- Tab panes -->
@@ -47,7 +48,7 @@ Template Name: Associations
 
       <?php if( have_rows('health_and_benefits') ): ?>
 
-          <?php while( have_rows('health_and_benefits') ): the_row(); 
+          <?php while( have_rows('health_and_benefits') ): the_row();
 
           //variables
           $hb_link = get_sub_field('link');
@@ -70,7 +71,7 @@ Template Name: Associations
 
       <?php if( have_rows('human_resources') ): ?>
 
-          <?php while( have_rows('human_resources') ): the_row(); 
+          <?php while( have_rows('human_resources') ): the_row();
 
           //variables
           $hr_link = get_sub_field('link');
@@ -91,10 +92,10 @@ Template Name: Associations
     </div>
 
     <div role="tabpanel" class="tab-pane fade" id="messages">
-      
+
       <?php if( have_rows('retirement_services') ): ?>
 
-          <?php while( have_rows('retirement_services') ): the_row(); 
+          <?php while( have_rows('retirement_services') ): the_row();
 
           //variables
           $rt_link = get_sub_field('link');
@@ -113,7 +114,7 @@ Template Name: Associations
       <?php endif;?>
 
     </div>
-    
+
 			</div> <!-- close tab content -->
 		</div> <!-- close col-md-12 -->
 	</div> <!-- close row -->
