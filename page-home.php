@@ -36,12 +36,12 @@ Template Name: Home Page
 <section class="stats">
   <div class="container">
     <div class="row">
-      
+
       <div class="col-sm-4">
         <div class="stat-wraps">
         <h2>20+</h2>
-        <p>Years of Building<br>
-        Successful Relationships</p>
+        <p>Years of<br>
+        filling searches.</p>
         </div>
       </div>
 
