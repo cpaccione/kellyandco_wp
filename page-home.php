@@ -41,7 +41,7 @@ Template Name: Home Page
         <div class="stat-wraps">
         <h2>20+</h2>
         <p>Years of<br>
-        filling searches.</p>
+        filling searches</p>
         </div>
       </div>
 
