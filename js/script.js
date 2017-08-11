@@ -8,6 +8,7 @@ jQuery(document).ready(function($) {
 	// Add bootstrap's 'img-responsive' class to all images
 
   $('img').addClass('img-responsive');
+  $('.social img').removeClass('img-responsive');
 
   $('.svg').removeClass('img-responsive');
 
@@ -18,9 +19,9 @@ jQuery(document).ready(function($) {
   // tabs
 
   $('.nav-pills a').click(function (e) {
-      
+
     e.preventDefault();
-    
+
     $(this).tab('show');
 
   });
@@ -30,6 +31,3 @@ jQuery(document).ready(function($) {
   $('.navbar [data-toggle="dropdown"]').bootstrapDropdownHover();
 
 });
-
-
-

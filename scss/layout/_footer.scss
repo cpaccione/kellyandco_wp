@@ -55,11 +55,25 @@
 .footer-copy-right {
 	padding: 60px 0 20px 0;
 	text-align: center;
+
+	img {
+		width: 41%;
+		padding: 0 0 26px 0;
+	}
+	.social {
+		list-style: none;
+		li {
+			display: inline;
+			padding-right: 10px;
+			a {
+			}
+		}
+	}
 }
 
-.social li a {
-	display: inline-block;
-}
+// .social li a {
+// 	display: inline-block;
+// }
 
 .footer-wraps {
 	padding: 25px 0 0 0;

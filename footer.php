@@ -23,7 +23,7 @@
         <div class="footer-copy-right">
           <ul class="social">
             <li><a href="https://www.linkedin.com/company/kelly-&amp;-company?trk=company_name" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
-            <li><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/forbes.png" alt="Forbes"></a></li>
+            <li><a href="#" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/forbes.png" alt="Forbes"></a></li>
           </ul>
         </div>
       </div>
