@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 function theme_styles() {
 	wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/css/bootstrap.min.css' );
@@ -59,7 +59,7 @@ add_filter( 'wp_nav_menu_objects', function ( $items ) {
       $items[1]->classes[] = 'menu-item-first';
       $items[ count( $items ) ]->classes[] = 'menu-item-last';
    }
- 
+
    return $items;
 } );
 
