@@ -37,24 +37,24 @@ $counter = 0;
       </div>
 
       <div class="logo-wrapper">
-        
+
       <?php if( have_rows('client_logo') ): ?>
 
         <?php while( have_rows('client_logo') ): the_row();
 
             //variables
-            $image = get_sub_field('image');
+            $clientImage = get_sub_field('clientimage');
 
           ?>
 
           <?php if($counter % 3 === 0) : echo '<div class="row">'; endif; ?>
 
             <div class="col-sm-4">
-              <img class="center-block client-logo" src="<?php echo $image[url]; ?>" alt="<?php echo $image['alt'] ?>">
+              <img class="center-block client-logo" src="<?php echo $clientImage['url']; ?>" alt="<?php echo $clientImage['alt'] ?>">
             </div>
 
         <?php $counter++; if($counter % 3 === 0) : echo '</div>'; endif; ?>
-        
+
         <?php endwhile; ?>
       <?php endif; ?>
 

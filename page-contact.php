@@ -45,4 +45,4 @@ Template Name: Contact
     </div>
 </section>
 
-<?php get_footer('empty'); ?>
+<?php get_footer(); ?>

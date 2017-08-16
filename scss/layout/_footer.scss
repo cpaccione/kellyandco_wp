@@ -5,7 +5,8 @@
 	/*font-size: 1.125em;*/
 	background-color: #003822;
 	color: #ffffff;
-	height: 250px;
+	padding-bottom: 15px;
+	//height: 250px;
 
 	@media #{$brk-767} {
 		height: 100%;
@@ -28,12 +29,15 @@
 		}
 	}
 
-	.fa-linkedin-square {
+	.social {
+		.fa-linkedin-square {
 
-		&:hover {
-			color: $kelly-cream;
+			&:hover {
+				color: $kelly-cream;
+			}
 		}
 	}
+
 }
 
 .footer-copy-left {
