@@ -30,6 +30,13 @@
 	}
 
 	.social {
+		float: right;
+
+		@media #{$brk-small} {
+			float: none;
+			padding-top: 10px;
+		}
+
 		.fa-linkedin-square {
 
 			&:hover {

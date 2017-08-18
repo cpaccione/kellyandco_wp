@@ -50,7 +50,7 @@ $counter = 0;
           <?php if($counter % 3 === 0) : echo '<div class="row">'; endif; ?>
 
             <div class="col-sm-4">
-              <img class="center-block client-logo" src="<?php echo $clientImage['url']; ?>" alt="<?php echo $clientImage['alt'] ?>">
+              <img class="center-block client-logo" src="<?php echo $clientImage['url']; ?>" alt="<?php echo $clientImage['alt']; ?>">
             </div>
 
         <?php $counter++; if($counter % 3 === 0) : echo '</div>'; endif; ?>

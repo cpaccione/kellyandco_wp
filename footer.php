@@ -33,11 +33,11 @@
     </div>
     <div class="row">
       <hr>
-      <div class="col-md-6">
+      <div class="col-sm-6">
         <small>&copy; <?php echo date("Y"); ?> Kelly and Company. All Rights Reserved.</small>
       </div>
-      <div class="col-md-6">
-      <div class="social pull-right">
+      <div class="col-sm-6">
+      <div class="social">
         <a href="https://www.linkedin.com/company/kelly-&amp;-company?trk=company_name" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
       </div>
       </div>
