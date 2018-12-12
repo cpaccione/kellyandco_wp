@@ -54,7 +54,7 @@ Template Name: Home Page
 
       <div class="col-sm-4">
         <div class="stat-wraps">
-          <h2>90</h2>
+          <h2>60</h2>
           <p>Days to Search<br>
           Completion</p>
         </div>

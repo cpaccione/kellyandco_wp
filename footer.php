@@ -21,7 +21,7 @@
 
       <div class="col-sm-4">
         <div class="footer-copy-right">
-          <img class="center-block" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/forbes_2017.jpg" alt="Forbes">
+          <!-- <img class="center-block" src="<?php //echo esc_url( get_template_directory_uri() ); ?>/images/forbes_2017.jpg" alt="Forbes"> -->
 <!--           <ul class="social">
             <li><a href="https://www.linkedin.com/company/kelly-&amp;-company?trk=company_name" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
             <li><a href="#" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/forbes_2017.jpg" alt="Forbes"></a></li>
