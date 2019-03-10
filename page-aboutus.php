@@ -21,7 +21,7 @@ Template Name: About Us
       <div class="col-sm-12">
         <div class="about-us-wrap">
           <div class="page-title">
-            <h2 class="text-center"><?php the_field('page_title'); ?></h2>  
+            <h2 class="text-center"><?php the_title(); ?></h2>  
           </div>
           <?php the_field('page_copy'); ?>
         </div>
