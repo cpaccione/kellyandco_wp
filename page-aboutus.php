@@ -11,8 +11,14 @@ Template Name: About Us
 
 <?php get_header(); ?>
 
+  <?php
 
-<section class="aboutus-hero" style="background-image: url(<?php the_field('about_us_hero'); ?>);"></section>
+    $featured_img_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); 
+
+  ?>
+
+
+<section class="aboutus-hero" style="background-image: url(<?php echo $featured_img_url; ?>);"></section>
 
 <section class="about-us">
   <div class="container">
@@ -23,7 +29,17 @@ Template Name: About Us
           <div class="page-title">
             <h2 class="text-center"><?php the_title(); ?></h2>  
           </div>
-          <?php the_field('page_copy'); ?>
+
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+                <?php the_content(); ?>
+
+            <?php endwhile; else: ?>
+
+            <h1>Oh no!</h1>
+            <p>No content is appearing on this page!</p>
+
+          <?php endif; ?>
         </div>
       </div>
     </div>
