@@ -19,6 +19,8 @@ function theme_js() {
 	$wp_scripts->add_data( 'html5_shiv', 'conditional', 'lt IE 9' );
 	$wp_scripts->add_data( 'respond_js', 'conditional', 'lt IE 9' );
 
+	wp_enqueue_script( 'font_awesome', 'https://kit.fontawesome.com/54b0c353c1.js', '5.2.4', true);
+
 	wp_enqueue_script('bootstrap_js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true );
 	wp_enqueue_script('bootstrap_hover', get_template_directory_uri() . '/js/jquery.bootstrap-dropdown-hover.min.js', array('jquery', 'bootstrap_js'), '', true);
 	wp_enqueue_script('script_js', get_template_directory_uri() . '/js/script.js', array('jquery', 'bootstrap_js'), '', true );
@@ -40,7 +42,7 @@ add_theme_support( 'post-thumbnails' ); // this allows you to set a featured ima
 
 
 
-add_action( 'wp_enqueue_scripts', 'prefix_enqueue_awesome' );
+// add_action( 'wp_enqueue_scripts', 'prefix_enqueue_awesome' );
 
 /**
  * Register and load font awesome CSS files using a CDN.
@@ -49,9 +51,9 @@ add_action( 'wp_enqueue_scripts', 'prefix_enqueue_awesome' );
  * @author FAT Media
  */
 
-function prefix_enqueue_awesome() {
-	wp_enqueue_style( 'prefix-font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css', array(), '4.5.0' );
-}
+// function prefix_enqueue_awesome() {
+// 	wp_enqueue_style( 'prefix-font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css', array(), '4.5.0' );
+// }
 
 // Add extra classes for the first and last items in all WordPress menus
 add_filter( 'wp_nav_menu_objects', function ( $items ) {

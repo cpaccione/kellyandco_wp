@@ -47,7 +47,8 @@
 	                  'menu'              => 'primary',
 	                  'theme_location'    => 'primary',
 	                  'depth'             => 2,
-	                  'menu_class'        => 'nav navbar-nav navbar-right',
+					  'menu_class'        => 'nav navbar-nav navbar-right',
+					  'menu_id'			  => 'menu-main-navigation',
 	                  'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
 	                  'walker'            => new wp_bootstrap_navwalker())
 	              );
