@@ -1,14 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/images/favicon.ico">
+<?php
+/**
+ * The template for displaying the header
+ *
+ * Displays all of the head element and everything up until the <section class="one"></section>.
+ *
+ * @package WordPress
+ * @subpackage KellyandCo
+ *
+ */
+?>
 
-    <title>
-      <?php wp_title( '|', true, 'right' ); ?>
-    </title>
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
 
     <?php wp_head(); ?>
 

@@ -17,8 +17,16 @@ Template Name: About Us
 
   ?>
 
+  <?php
+    if($featured_img_url) {
+      echo '<section class="aboutus-hero" style="background-image: url(';
+      echo $featured_img_url;
+      echo ');"></section>';
+    }
 
-<section class="aboutus-hero" style="background-image: url(<?php echo $featured_img_url; ?>);"></section>
+?>
+
+
 
 <section class="about-us">
   <div class="container">
@@ -36,8 +44,7 @@ Template Name: About Us
 
             <?php endwhile; else: ?>
 
-            <h1>Oh no!</h1>
-            <p>No content is appearing on this page!</p>
+              <p>No content is appearing on this page!</p>
 
           <?php endif; ?>
         </div>
