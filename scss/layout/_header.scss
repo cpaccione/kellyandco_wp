@@ -105,9 +105,9 @@
 	}
 }
 
-#menu-main-navigation {
-    // padding: 45px 0 0 60px;
-    padding: 10px 0 0 60px;
+.navbar-nav {
+    padding: 45px 0 0 60px;
+    // padding: 10px 0 0 60px;
 
 	@media #{$brk-wide-two} {
         padding: 0;

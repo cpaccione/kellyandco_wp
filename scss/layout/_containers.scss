@@ -196,12 +196,28 @@ ul.adj-list {
 .logo-wrapper {
 	padding: 40px 0 40px 0;
 
-	.row {
-		padding-bottom: 50px;
+	// .row {
+	// 	padding-bottom: 50px;
 
-		@media #{$brk-767} {
-			padding-bottom: 0px;
-		}
+	// 	@media #{$brk-767} {
+	// 		padding-bottom: 0px;
+	// 	}
+	// }
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 3rem;
+
+	@include responsive(min-width, 600px) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@include responsive(min-width, 768px) {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	@include responsive(min-width, 1400px) {
+		grid-template-columns: repeat(4, 1fr);
 	}
 }
 

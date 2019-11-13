@@ -6,3 +6,9 @@
 	font-weight: $weight;
 	color: $color;
 }
+
+@mixin responsive($val, $query) {
+	@media ($val: $query) {
+		@content
+	}
+}
