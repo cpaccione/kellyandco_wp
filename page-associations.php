@@ -33,9 +33,9 @@ Template Name: Associations
 			    <li role="presentation" class="active">
 			    	<a href="#home" aria-controls="home" role="tab" data-toggle="tab">HEALTH &amp; BENEFITS</a>
 			    </li>
-			    <li role="presentation">
+			    <!-- <li role="presentation">
 			    	<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">HUMAN RESOURCES</a>
-			    </li>
+			    </li> -->
 			    <li role="presentation">
 			    	<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">RETIREMENT SERVICES</a>
 			    </li>
