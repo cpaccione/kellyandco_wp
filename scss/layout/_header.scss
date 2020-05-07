@@ -64,14 +64,19 @@
 }
 
 .search-process-hero {
-    background-position: 100% 60%;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 250px;
 
-    @media #{$brk-small} {
-        background-position: 50%;
-        height: 250px;
+    // @media #{$brk-small} {
+    //     background-position: 50%;
+    //     height: 250px;
+    // }
+
+    @media (min-width: 600px) {
+        background-position: 100% 50%;
+        height: 400px;
     }
 }
 
