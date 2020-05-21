@@ -30,9 +30,9 @@
             <li><a href="https://www.linkedin.com/company/kelly-&amp;-company?trk=company_name" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
             <li><a href="#" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/forbes_2017.jpg" alt="Forbes"></a></li>
           </ul> -->
-          <p>170 Commerce Way</p>
-          <p>Suite 200</p>
+          <p>170 Commerce Way Ste 200</p>
           <p>Portsmouth, NH 03801</p>
+          <p><i class="fas fa-phone-alt"></i> &nbsp;<a href="tel:+6032058139">(603) 205-8139</a></p>
         </div>
       </div>
 
