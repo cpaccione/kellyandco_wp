@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	@include text(1em, 1.5, 300, $color : $kelly-green);
+	@include text(1rem, 1.5, 300, $color : $kelly-green);
 	background-color: #fce6bf;
 	font-family: $stack-lato;
 }
