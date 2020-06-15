@@ -32,7 +32,7 @@ $link = get_field('link');
 ?>
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
     <div class="col">
-        <h3><?php echo $contact_title; ?></h3>
+        <h3 style="margin-top: 0;"><?php echo $contact_title; ?></h3>
 
             <?php if( have_rows('address_repeater') ): ?>
 

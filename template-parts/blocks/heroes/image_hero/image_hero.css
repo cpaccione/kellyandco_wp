@@ -1,0 +1,12 @@
+.image-hero {
+    background-position: 50% 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+@media (min-width: 600px) {
+    .image-hero {
+        height: 400px;
+    }
+}
