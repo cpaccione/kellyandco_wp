@@ -258,7 +258,7 @@ $link = get_field('link');
 
         const contentString = '<div id="map-info">'+
         '<p>Kelly and Company</p>'+
-        '<a href="#" target="_blank">Get directions.</a>'+
+        '<a href="https://www.google.com/maps/place/1350+6th+Ave+Fl+2,+New+York,+NY+10019/@40.7625614,-73.9799923,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258f98fb5db9f:0x3b07a3bb67d72ff8!8m2!3d40.7625614!4d-73.9777983" target="_blank">Get directions.</a>'+
         '</div>';
 
         const infowindow = new google.maps.InfoWindow({

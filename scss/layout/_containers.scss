@@ -222,15 +222,15 @@ ul.adj-list {
 }
 
 img.client-logo {
-	max-width: 250px;
+	max-width: 200px;
 
-	@media #{$brk-wide-two} {
-		max-width: 200px;
-	}
+	// @media #{$brk-wide-two} {
+	// 	max-width: 200px;
+	// }
 
-	@media #{$brk-767} {
-		max-width: 100%;
-	}
+	// @media #{$brk-767} {
+	// 	max-width: 100%;
+	// }
 }
 
 /* Bootstrap Tabs */
