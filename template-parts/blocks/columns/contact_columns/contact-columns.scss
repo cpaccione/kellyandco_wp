@@ -2,13 +2,14 @@
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 1rem 0 1rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
+    text-align: center;
+    // display: grid;
+    // grid-template-columns: 1fr;
+    // grid-gap: 3rem;
 
-    @media (min-width: 800px) {
-        grid-template-columns: 1.5fr 2fr;
-    }
+    // @media (min-width: 800px) {
+    //     grid-template-columns: 1.5fr 2fr;
+    // }
 
 
     h3 {
