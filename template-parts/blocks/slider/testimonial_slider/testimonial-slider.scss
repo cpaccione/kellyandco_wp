@@ -1,0 +1,51 @@
+// Descriptive color variables
+$white : #ffffff;
+$black : #000000;
+
+// Functional color variables
+$kelly-green : #003822;
+$kelly-green-transparent : rgba(0, 56, 34, 0.4);
+$kelly-cream : #fce6bf;
+$active-link : #54887F;
+
+.testimonial-slider {
+    background-color: $kelly-green;
+    // background-color: $white;
+    // background-color: $kelly-cream;
+    color: $white;
+    // color: $kelly-green;
+    text-align: center;
+    padding: 4rem 1rem 4rem 1rem;
+
+    .t-slider {
+        max-width: 1170px;
+        margin: 0 auto;
+
+        .slide {
+            .slide-wrap {
+                max-width: 900px;
+                margin: 0 auto;
+
+                .title {
+                    font-weight: 300;
+                    margin-bottom: .5rem;
+                }
+
+                .company {
+                    font-weight: 300;
+                    margin: 0;
+                }
+            }
+        }
+
+        .slick-dots {
+            bottom: -40px;
+
+            li {
+                button:before {
+                    color: $white;
+                }
+            }
+        }
+    }
+}

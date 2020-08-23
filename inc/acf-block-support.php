@@ -66,13 +66,18 @@ function register_acf_block_types() {
         'name'              => 'testimonial_slider',
         'title'             => __('Testimonial Slider'),
         'description'       => __('A testimonial slider.'),
-        'render_template'   => 'template-parts/blocks/slider/testimonial-slider/testimonial-slider.php',
+        'render_template'   => 'template-parts/blocks/slider/testimonial_slider/testimonial-slider.php',
         'enqueue_assets'    => function() {
-            wp_enqueue_style( 'slick-theme-css', get_template_directory_uri() . '/template-parts/blocks/slider/testimonial_slider/slick/slick-theme.css', array(), '1.0', 'all' );
-            wp_enqueue_style( 'slick-css', get_template_directory_uri() . '/template-parts/blocks/slider/testimonial_slider/slick/slick.css', array(), '1.0', 'all' );
-            wp_enqueue_style( 'testimonial-slider-css', get_template_directory_uri() . '/template-parts/blocks/slider/testimonial-slider/testimonial-slider.css', array(), '1.0', 'all' );
-            wp_enqueue_script( 'slick-js',  get_template_directory_uri() . '/template-parts/blocks/slider/testimonial_slider/slick/slick.js', array('jquery'), '1.0', true );
-            wp_enqueue_script( 'custom-js',  get_template_directory_uri() . '/template-parts/blocks/slider/testimonial-slider/testimonial-slider.js', array('jquery'), '1.4', true );
+            
+            wp_enqueue_style( 'slick-theme', get_template_directory_uri() . '/template-parts/blocks/slider/testimonial_slider/slick/slick-theme.css', array(), '1.0', 'all' );
+
+            wp_enqueue_style( 'slick-slider-styles', get_template_directory_uri() . '/template-parts/blocks/slider/testimonial_slider/slick/slick.css', array(), '1.0', 'all' );
+
+            wp_enqueue_style( 'testimonial-slider', get_template_directory_uri() . '/template-parts/blocks/slider/testimonial_slider/testimonial-slider.css', array(), '1.0', 'all' );
+
+            wp_enqueue_script( 'slick-slider',  get_template_directory_uri() . '/template-parts/blocks/slider/testimonial_slider/slick/slick.js', array('jquery'), '1.0', true );
+
+            wp_enqueue_script( 'slick-custom',  get_template_directory_uri() . '/template-parts/blocks/slider/testimonial_slider/testimonial-slider.js', array('jquery'), '1.0', true );
         },
         'category'          => 'common',
         'mode'              => 'auto',
