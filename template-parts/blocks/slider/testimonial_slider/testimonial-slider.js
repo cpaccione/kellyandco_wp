@@ -8,6 +8,7 @@
             arrows: true,
             infinite: true,
             autoplay: true,
+            adaptiveHeight: true,
             speed: 500,
             cssEase: 'linear',
             responsive: [
