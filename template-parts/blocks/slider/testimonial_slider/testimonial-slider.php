@@ -26,6 +26,7 @@ if( !empty($block['align']) ) {
 
 ?>
 
+
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
 
         <?php
@@ -64,19 +65,4 @@ if( !empty($block['align']) ) {
 
             echo '</div>';
         ?>
-        <!-- <div class="slide">
-            <div class="slide-wrap">
-                <p>I have worked with Kelly & Company for the last 15 years.  They have been an invaluable strategic advisor as I have built high-performing teams in each of the businesses that I have managed.  They are focused on my success and take the time to understand my business strategy, culture and team dynamics.  With this in mind, they are able to find me the right person at the right time for my business.  Other executive recruiters approach their work as a transactional business.  Kelly & Company approaches it as a strategic necessity.  I would never work with anybody else.</p>
-                <h2>Michael Sternklar</h2>
-                <h3>CEO, benefitexpress</h3>         
-            </div>
-        </div>
-        <div class="slide">
-            <div class="slide-wrap">
-                <p>“Thank you for a job well done!!  I could not be happier with the outcome as well as the process. In many ways it feels like we have known each other for a long time. Thanks to you and your team for a job well done!<p>
-                <h2>Paolo Spada</h2>
-                <h3>Vice President of Finance, Omnicom Group, Inc.</h3>            
-            </div>
-        </div> -->
-    <!-- </div>     -->
 </div>
