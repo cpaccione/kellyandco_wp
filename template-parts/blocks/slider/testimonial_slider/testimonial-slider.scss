@@ -26,12 +26,18 @@ $active-link : #54887F;
                 max-width: 900px;
                 margin: 0 auto;
 
+                .name {
+                    font-size: 2rem;
+                }
+
                 .title {
+                    font-size: 1rem;
                     font-weight: 300;
                     margin-bottom: .5rem;
                 }
 
                 .company {
+                    font-size: 1rem;
                     font-weight: 300;
                     margin: 0;
                 }
