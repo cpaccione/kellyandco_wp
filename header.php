@@ -49,7 +49,7 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
 	          </button>
-	          <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/kellyLargeLogo01.png" alt="Kelly and Company"></a>
+	          <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/KellyCompany-logo.svg" alt="Kelly and Company"></a>
 	        </div>
 	        <div id="navbar" class="navbar-collapse collapse">
 	          <?php
