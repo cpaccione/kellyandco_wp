@@ -20,9 +20,6 @@
 
     <?php wp_head(); ?>
 
-	<script type="text/javascript" src="https://secure.hall3hook.com/js/198888.js" ></script>
-	<noscript><img alt="" src="https://secure.hall3hook.com/198888.png" style="display:none;" /></noscript>
-
     <script>
 
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -38,6 +35,8 @@
   </head>
 
   <body>
+  <script type="text/javascript" src="https://secure.hall3hook.com/js/198888.js" ></script>
+  <noscript><img alt="" src="https://secure.hall3hook.com/198888.png" style="display:none;" /></noscript>
 
 <section class="one">
   	<div class="container main-nav-container">
